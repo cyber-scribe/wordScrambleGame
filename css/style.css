@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito',sans-serif;
+
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(73, 97, 182);
+    color: white;
+}
+.container{
+    width: 450px;
+    background-color: rgb(54, 71, 111);
+    border-radius: 7px;
+    padding: 15px;
+
+}
+.container h1{
+    font-size: 40px;
+    padding: 15px 25px;
+    text-align: center;
+    border-bottom: 1px solid ;
+}
+.container content{
+    margin: 25px 40px;
+    padding: 15px;
+}
+.content .word{
+    margin: 10px;
+    font-size:30px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+.content .details{
+    margin: 15px 5px 10px;
+    text-align: center;
+}
+.details p{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.details p b{
+    font-weight: 600;
+}
+.content input{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    outline:none;
+    padding: 20px 16px;
+    margin-bottom: 5px;
+    border: 1px solid white;
+    font-size: 18px;
+    text-align: center;
+}
+.content .buttons{
+    display: flex;
+    justify-content: space-around;
+    margin-top:8px;
+}
+.buttons button{
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    width:30%;
+    padding: 5px;
+    font-weight: 700;
+    color:rgb(54, 71, 111);
+
+}
