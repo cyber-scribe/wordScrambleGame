@@ -75,3 +75,19 @@ body{
     color:rgb(54, 71, 111);
 
 }
+.buttons .refresh{
+    background-color: rgb(23, 39, 69);
+    color: white;
+}
+.buttons .check{
+    background-color:  rgb(23, 39, 69);
+    color: white;
+}
+.buttons .check:hover{
+    background-color: white;
+    color: rgb(23, 39, 69);
+}
+.buttons .refresh:hover{
+    background-color: white;
+    color: rgb(23, 39, 69);
+}
