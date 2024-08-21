@@ -1,6 +1,6 @@
 const initGame = () =>{
     let randomObj = words[Math.floor(Math.random()*words.length)];
     let wordArray = randomObj.word.split("");
-    console.log(words);
+    console.log(wordArray);
 }
 initGame();
