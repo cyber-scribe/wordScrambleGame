@@ -1,1 +1,1 @@
-# Projects
+# Word Scramble Game
