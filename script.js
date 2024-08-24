@@ -1,6 +1,10 @@
 const wordText = document.querySelector(".word")
 hintText = document.querySelector(".hint span")
-refreshBtn = document.querySelector(".refresh");
+inputField = document.querySelector(".input")
+refreshBtn = document.querySelector(".refresh")
+checkBtn = document.querySelector(".check");
+
+let correctWord;
 
 
 const initGame = () =>{
@@ -12,7 +16,15 @@ const initGame = () =>{
     }
     wordText.innerText = wordArray.join("");
     hintText.innerText = randomObj.hint;
-    console.log(randomObj);
+    correctWord = randomObj.word.toLowerCase();
 }
 initGame();
+
+const checkWord = () =>{
+    let userWord = inputField.value.toLowerCase();
+    if(!userWord)return alert("Please enter a word!");
+    if(userWord!==correctWord)return alert("Not correct!");
+    alert('Yes! You got that right!');
+}
 refreshBtn.addEventListener("click",initGame);
+checkBtn.addEventListener("click",checkWord);
