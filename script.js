@@ -2,12 +2,29 @@ const wordText = document.querySelector(".word")
 hintText = document.querySelector(".hint span")
 inputField = document.querySelector(".input")
 refreshBtn = document.querySelector(".refresh")
-checkBtn = document.querySelector(".check");
+checkBtn = document.querySelector(".check")
+timeText = document.querySelector(".time")
+startBtn = document.querySelector(".bt");
 
 let correctWord;
 
+const initTimer = maxTime =>{
+
+   timer = setInterval(()=>{
+        
+         if(maxTime>=0){
+            timeText.innerText= maxTime;
+            maxTime--;         
+          }
+        else{
+            alert("Time's up!");
+        }
+   },1000);
+
+}
 
 const initGame = () =>{
+    initTimer(30);
     let randomObj = words[Math.floor(Math.random()*words.length)];
     let wordArray = randomObj.word.split("");
     for(let i= wordArray.length-1;i>0;i--){
@@ -16,6 +33,7 @@ const initGame = () =>{
     }
     wordText.innerText = wordArray.join("");
     hintText.innerText = randomObj.hint;
+    inputField.value ="";
     correctWord = randomObj.word.toLowerCase();
 }
 initGame();
@@ -25,6 +43,8 @@ const checkWord = () =>{
     if(!userWord)return alert("Please enter a word!");
     if(userWord!==correctWord)return alert("Not correct!");
     alert('Yes! You got that right!');
+    initGame();
 }
 refreshBtn.addEventListener("click",initGame);
 checkBtn.addEventListener("click",checkWord);
+startBtn.addEventListener("click",initGame);

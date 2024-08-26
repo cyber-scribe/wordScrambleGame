@@ -91,3 +91,22 @@ body{
     background-color: white;
     color: rgb(23, 39, 69);
 }
+.bt{
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    width:20%;
+    padding: 25px;
+    font-weight: 700;
+    background-color: rgb(23, 39, 69);
+    color: white;
+}
+.start{
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.bt:hover{
+    background-color: white;
+    color: rgb(23, 39, 69);
+}
