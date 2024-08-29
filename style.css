@@ -22,7 +22,7 @@ body{
 
 }
 .container h1{
-    font-size: 40px;
+    font-size: 36px;
     padding: 15px 25px;
     text-align: center;
     border-bottom: 1px solid ;
@@ -33,7 +33,7 @@ body{
 }
 .content .word{
     margin: 10px;
-    font-size:30px;
+    font-size:28px;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 8px;
