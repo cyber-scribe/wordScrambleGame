@@ -50,12 +50,12 @@ body{
     font-weight: 600;
 }
 .content input{
-    width: 100%;
+    width: 95%;
     height: 30px;
     border-radius: 5px;
     outline:none;
     padding: 20px 16px;
-    margin-bottom: 5px;
+    margin: 15px;
     border: 1px solid white;
     font-size: 18px;
     text-align: center;
