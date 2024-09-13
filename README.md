@@ -5,3 +5,14 @@ Welcome to the Word Scramble Game repository! This project is a simple word game
 ##### Word Scrambling: Randomly generates scrambled words for players to solve.
 ##### Hint System: Provides hints for players who get stuck.
 ##### User-Friendly Interface: Simple and intuitive user interface for a seamless gaming experience.
+
+## How to Play
+Once the game loads, a scrambled word will be displayed.
+Type your guess in the input field and click "Check Word" .
+If correct, move to the next word. If incorrect, try again.
+
+## Technologies Used
+HTML, CSS, JavaScript
+
+## Contributing
+Contributions are welcome! If you'd like to improve the game or add new features, please fork the repository and create a pull request. For major changes, please open an issue first to discuss what you would like to change.
