@@ -110,3 +110,7 @@ body{
     background-color: white;
     color: rgb(23, 39, 69);
 }
+.score{
+    text-align: center;
+    padding: 8px;
+}
