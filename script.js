@@ -8,6 +8,7 @@ startBtn = document.querySelector(".bt")
 score = document.querySelector(".score");
 
 let correctWord;
+let count;
 
 const initTimer = maxTime =>{
 
@@ -36,8 +37,8 @@ const initGame = () =>{
     hintText.innerText = randomObj.hint;
     inputField.value ="";
     correctWord = randomObj.word.toLowerCase();
+    score.innerText= "Your Score is: "+Count;
 }
-//    score.innerText="Your Score is"+Count;
 initGame();
 
 const checkWord = () =>{
@@ -45,7 +46,7 @@ const checkWord = () =>{
     if(!userWord)return alert("Please enter a word!");
     if(userWord!==correctWord)return alert("Not correct!");
     alert('Yes! You got that right!');
-    // let Count=Count+1;
+    count++;
     initGame();
 }
 refreshBtn.addEventListener("click",initGame);
