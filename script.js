@@ -5,7 +5,7 @@ refreshBtn = document.querySelector(".refresh")
 checkBtn = document.querySelector(".check")
 timeText = document.querySelector(".time")
 startBtn = document.querySelector(".bt")
-score = document.querySelector(".score");
+scoreT = document.querySelector(".score");
 
 let correctWord;
 let count;
@@ -37,7 +37,7 @@ const initGame = () =>{
     hintText.innerText = randomObj.hint;
     inputField.value ="";
     correctWord = randomObj.word.toLowerCase();
-    score.innerText= "Your Score is: "+Count;
+    scoreT.innerText= "Your Score is: "+Count;
 }
 initGame();
 
