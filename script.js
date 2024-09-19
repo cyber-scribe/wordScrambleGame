@@ -46,9 +46,25 @@ const checkWord = () =>{
     if(userWord!==correctWord)return alert("Not correct!");
     alert('Yes! You got that right!');
     count++;
+    // GameEnd();
     initGame();
 }
-// scoreT.innerText= "Your Score is: "+Count;
+
+
+// const GameEndEnd = () => {
+//     // console.log(document.getElementsByClassName("container"));
+
+//     let index = 0;
+//     let correct = 0,
+//         incorrect = 0;
+
+//     document.getElementsByClassName("score")[0].innerHTML = `
+//         <div class="col">
+//             <h3 class="w-100"> Hii, you've scored ${correct}</h3>
+//         </div>
+//     `
+// }
+
 refreshBtn.addEventListener("click",initGame);
 checkBtn.addEventListener("click",checkWord);
 startBtn.addEventListener("click",initGame);
