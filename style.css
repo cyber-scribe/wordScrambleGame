@@ -97,11 +97,13 @@ body{
     background-color: white;
     /* color: rgb(23, 39, 69); */
     color:rgb(59, 92, 175);
+    border: solid .5px rgb(59, 92, 175);
 }
 .buttons .refresh:hover{
     background-color: white;
     /* color: rgb(23, 39, 69); */
     color:rgb(59, 92, 175);
+    border:solid .5px rgb(59, 92, 175) ;
 }
 .bt{
     border: none;
