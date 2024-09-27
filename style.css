@@ -85,6 +85,7 @@ body{
     background-color: rgb(59, 92, 175);
     color: white;
     cursor: pointer;
+    box-shadow: 2px 2px rgb(35, 43, 78);
     
 }
 .buttons .check{
@@ -92,6 +93,7 @@ body{
     background-color: rgb(59, 92, 175);
     color: white;
     cursor: pointer;
+    box-shadow: 2px 2px rgb(35, 43, 78);
 
 }
 .buttons .check:hover{
