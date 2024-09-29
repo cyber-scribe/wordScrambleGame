@@ -64,6 +64,7 @@ body{
     font-size: 18px;
     text-align: center;
     background-color: rgb(203, 203, 213);
+    box-shadow: 2px 2px rgb(148, 149, 151);
 }
 .content .buttons{
     display: flex;
