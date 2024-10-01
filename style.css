@@ -27,6 +27,7 @@ body{
 }
 .container h1{
     font-size: 36px;
+    font-weight:700;
     padding: 15px 25px;
     text-align: center;
     border-bottom: 1px solid ;
