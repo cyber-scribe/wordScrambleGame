@@ -5,7 +5,7 @@ refreshBtn = document.querySelector(".refresh")
 checkBtn = document.querySelector(".check")
 timeText = document.querySelector(".time")
 startBtn = document.querySelector(".bt")
-scoreT = document.querySelector(".score");
+scoreT = document.querySelector(".scre");
 
 let correctWord;
 let count;
@@ -44,8 +44,11 @@ const checkWord = () =>{
     let userWord = inputField.value.toLowerCase();
     if(!userWord)return alert("Please enter a word!");
     if(userWord!==correctWord)return alert("Not correct!");
-    alert('Yes! You got that right!');
-    count++;
+    else{
+        alert('Yes! You got that right!');
+        count++;
+    }
+    scoreT=count;
     initGame();
 }
 
