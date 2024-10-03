@@ -48,7 +48,7 @@ const checkWord = () =>{
         alert('Yes! You got that right!');
         count++;
     }
-    scoreT=count;
+    scoreT.innerText=count;
     initGame();
 }
 
