@@ -51,6 +51,9 @@ const checkWord = () =>{
     scoreT.innerText=count;
     initGame();
 }
+const showScore = () =>{
+
+}
 
 
 refreshBtn.addEventListener("click",initGame);
