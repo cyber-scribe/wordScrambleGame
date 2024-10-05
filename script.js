@@ -4,8 +4,7 @@ inputField = document.querySelector(".input")
 refreshBtn = document.querySelector(".refresh")
 checkBtn = document.querySelector(".check")
 timeText = document.querySelector(".time")
-startBtn = document.querySelector(".bt")
-scoreT = document.querySelector(".scre");
+startBtn = document.querySelector(".bt");
 
 let correctWord;
 let count;
