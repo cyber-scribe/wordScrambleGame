@@ -4,10 +4,11 @@ inputField = document.querySelector(".input")
 refreshBtn = document.querySelector(".refresh")
 checkBtn = document.querySelector(".check")
 timeText = document.querySelector(".time")
-startBtn = document.querySelector(".bt");
+startBtn = document.querySelector(".bt")
+scoreField = document.querySelector(".scre");
 
 let correctWord;
-let count;
+let Count=0;
 
 const initTimer = maxTime =>{
 
@@ -45,13 +46,13 @@ const checkWord = () =>{
     if(userWord!==correctWord)return alert("Not correct!");
     else{
         alert('Yes! You got that right!');
-        count++;
+        Count++;
+        showScore(Count);
     }
-    scoreT.innerText=count;
     initGame();
 }
-const showScore = () =>{
-
+const showScore = (count) =>{
+   scoreField.innerText=count;
 }
 
 
