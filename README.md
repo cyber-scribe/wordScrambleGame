@@ -14,5 +14,3 @@ If correct, move to the next word. If incorrect, try again.
 ## Technologies Used
 HTML, CSS, JavaScript
 
-## Contributing
-Contributions are welcome! If you'd like to improve the game or add new features, please fork the repository and create a pull request. For major changes, please open an issue first to discuss what you would like to change.
