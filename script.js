@@ -50,6 +50,7 @@ const checkWord = () =>{
         showScore(Count);
     }
     initGame();
+    
 }
 const showScore = (count) =>{
    scoreField.innerText=count;
