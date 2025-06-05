@@ -188,5 +188,32 @@ let words = [
             word: "oxygen",
             hint: "A chemical element essential for life"
         },
-
+    {
+    word: "conquest",
+    hint: "The act of gaining control through force"
+},
+{
+    word: "horizon",
+    hint: "The line where the earth and sky appear to meet"
+},
+{
+    word: "network",
+    hint: "An interconnected system of things or people"
+},
+{
+    word: "culture",
+    hint: "Shared beliefs and practices of a community"
+},
+{
+    word: "essence",
+    hint: "The core nature or indispensable quality of something"
+},
+{
+    word: "fracture",
+    hint: "A break or crack in a hard object or material"
+},
+{
+    word: "gravity",
+    hint: "A natural force that attracts objects toward one another"
+}
 ]
