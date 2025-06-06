@@ -1,5 +1,5 @@
 # Word Scramble Game
-Welcome to the Word Scramble Game repository! This project is a simple word game where players unscramble letters to form meaningful words. It's designed to be educational and fun game, suitable for players of all ages.
+Welcome to the Word Scramble Game repository! This project is a simple word game where players unscramble letters to form meaningful words. It's designed to be educational and fun game.
 
 ## Features
 ##### Word Scrambling: Randomly generates scrambled words for players to solve.
