@@ -215,5 +215,45 @@ let words = [
 {
     word: "gravity",
     hint: "A natural force that attracts objects toward one another"
+},
+{
+    word: "journey",
+    hint: "An act of traveling from one place to another"
+},
+{
+    word: "fusion",
+    hint: "The process of combining two or more things"
+},
+{
+    word: "harvest",
+    hint: "The gathering of crops or results"
+},
+{
+    word: "symbol",
+    hint: "A sign that represents an idea or object"
+},
+{
+    word: "justice",
+    hint: "Fair behavior or treatment"
+},
+{
+    word: "whisper",
+    hint: "Speaking very softly without vocal cords"
+},
+{
+    word: "anchor",
+    hint: "A heavy object to keep a ship in place"
+},
+{
+    word: "portal",
+    hint: "A gateway or doorway, often to another world"
+},
+{
+    word: "beacon",
+    hint: "A guiding or warning light, often from a tower"
+},
+{
+    word: "riddle",
+    hint: "A puzzling question or problem to solve"
 }
 ]
