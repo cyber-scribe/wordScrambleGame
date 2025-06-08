@@ -169,10 +169,6 @@ let words = [
             hint: "A person who paints pictures"
         },
         {
-            word: "stadium",
-            hint: "A large arena for sports events"
-        },
-        {
             word: "universe",
             hint: "All existing matter and space considered as a whole"
         },
