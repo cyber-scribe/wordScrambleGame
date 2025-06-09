@@ -251,5 +251,45 @@ let words = [
 {
     word: "riddle",
     hint: "A puzzling question or problem to solve"
+},
+{
+    word: "glimpse",
+    hint: "A brief or quick look"
+},
+{
+    word: "refuge",
+    hint: "A safe place or shelter"
+},
+{
+    word: "ignite",
+    hint: "To catch fire or trigger a reaction"
+},
+{
+    word: "voyage",
+    hint: "A long journey, especially by sea or space"
+},
+{
+    word: "canvas",
+    hint: "A surface for painting or creating art"
+},
+{
+    word: "embark",
+    hint: "To begin a journey or enterprise"
+},
+{
+    word: "echoes",
+    hint: "Repetitions of sound or past events"
+},
+{
+    word: "barrier",
+    hint: "An obstacle that prevents movement or progress"
+},
+{
+    word: "legacy",
+    hint: "Something handed down from the past"
+},
+{
+    word: "orbit",
+    hint: "A curved path around a planet or star"
 }
 ]
