@@ -93,98 +93,98 @@ let words = [
     },
     
     {
-            word: "ocean",
-            hint: "A large body of salt water"
-        },
-        {
-            word: "mountain",
-            hint: "A large natural elevation of the earth"
-        },
-        {
-            word: "puzzle",
-            hint: "A game designed to test ingenuity"
-        },
-        {
-            word: "history",
-            hint: "The study of past events"
-        },
-        {
-            word: "science",
-            hint: "The systematic study of the natural world"
-        },
-        {
-            word: "keyboard",
-            hint: "A set of keys for typing on a computer"
-        },
-        {
-            word: "window",
-            hint: "An opening in a wall to let in light and air"
-        },
-        {
-            word: "village",
-            hint: "A small community in a rural area"
-        },
-        {
-            word: "bicycle",
-            hint: "A two-wheeled vehicle powered by pedaling"
-        },
-        {
-            word: "umbrella",
-            hint: "A device used for protection against rain"
-        },
-        {
-            word: "desert",
-            hint: "A dry, barren area of land"
-        },
-        {
-            word: "forest",
-            hint: "A large area covered with trees"
-        },
-        {
-            word: "author",
-            hint: "A person who writes books or articles"
-        },
-        {
-            word: "planet",
-            hint: "A celestial body orbiting a star"
-        },
-        {
-            word: "jungle",
-            hint: "A dense forest in a tropical region"
-        },
-        {
-            word: "triangle",
-            hint: "A three-sided polygon"
-        },
-        {
-            word: "festival",
-            hint: "A day or period of celebration"
-        },
-        {
-            word: "laptop",
-            hint: "A portable personal computer"
-        },
-        {
-            word: "painter",
-            hint: "A person who paints pictures"
-        },
-        {
-            word: "universe",
-            hint: "All existing matter and space considered as a whole"
-        },
-        {
-            word: "diamond",
-            hint: "A precious stone consisting of pure carbon"
-        },
-        {
-            word: "medal",
-            hint: "A piece of metal given as an award"
-        },
-        {
-            word: "oxygen",
-            hint: "A chemical element essential for life"
-        },
+    word: "ocean",
+    hint: "A large body of salt water"
+    },
     {
+    word: "mountain",
+    hint: "A large natural elevation of the earth"
+    },
+    {
+    word: "puzzle",
+    hint: "A game designed to test ingenuity"
+    },
+    {
+    word: "history",
+    hint: "The study of past events"
+    },
+    {
+    word: "science",
+    hint: "The systematic study of the natural world"
+    },
+    {
+    word: "keyboard",
+    hint: "A set of keys for typing on a computer"
+    },
+    {
+    word: "window",
+    hint: "An opening in a wall to let in light and air"
+    },
+    {
+    word: "village",
+    hint: "A small community in a rural area"
+    },
+    {
+    word: "bicycle",
+    hint: "A two-wheeled vehicle powered by pedaling"
+    },
+    {
+    word: "umbrella",
+    hint: "A device used for protection against rain"
+    },
+    {
+    word: "desert",
+    hint: "A dry, barren area of land"
+    },
+    {
+    word: "forest",
+    hint: "A large area covered with trees"
+    },
+    {
+    word: "author",
+    hint: "A person who writes books or articles"
+    },
+    {
+    word: "planet",
+    hint: "A celestial body orbiting a star"
+    },
+    {
+    word: "jungle",
+    hint: "A dense forest in a tropical region"
+    },
+    {
+    word: "triangle",
+    hint: "A three-sided polygon"
+    },
+    {
+    word: "festival",
+    hint: "A day or period of celebration"
+    },
+    {
+    word: "laptop",
+    hint: "A portable personal computer"
+    },
+    {
+    word: "painter",
+    hint: "A person who paints pictures"
+    },
+    {
+    word: "universe",
+    hint: "All existing matter and space considered as a whole"
+    },
+    {
+    word: "diamond",
+    hint: "A precious stone consisting of pure carbon" 
+    }, 
+    {
+    word: "medal",
+    hint: "A piece of metal given as an award"
+    },
+    {
+    word: "oxygen",
+    hint: "A chemical element essential for life"
+    },
+{
     word: "conquest",
     hint: "The act of gaining control through force"
 },
