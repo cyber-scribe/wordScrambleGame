@@ -184,112 +184,112 @@ let words = [
     word: "oxygen",
     hint: "A chemical element essential for life"
     },
-{
+    {
     word: "conquest",
     hint: "The act of gaining control through force"
-},
-{
+    },
+    {
     word: "horizon",
     hint: "The line where the earth and sky appear to meet"
-},
-{
+    },
+    {
     word: "network",
     hint: "An interconnected system of things or people"
-},
-{
+    },
+    {
     word: "culture",
     hint: "Shared beliefs and practices of a community"
-},
-{
+    },
+    {
     word: "essence",
     hint: "The core nature or indispensable quality of something"
-},
-{
+    },
+    {
     word: "fracture",
     hint: "A break or crack in a hard object or material"
-},
-{
+    },
+    {
     word: "gravity",
     hint: "A natural force that attracts objects toward one another"
-},
-{
+    },
+    {
     word: "journey",
     hint: "An act of traveling from one place to another"
-},
-{
+    },
+    {
     word: "fusion",
     hint: "The process of combining two or more things"
-},
-{
+    },
+    {
     word: "harvest",
     hint: "The gathering of crops or results"
-},
-{
+    },
+    {
     word: "symbol",
     hint: "A sign that represents an idea or object"
-},
-{
+    },
+    {
     word: "justice",
     hint: "Fair behavior or treatment"
-},
-{
+    },
+    {
     word: "whisper",
     hint: "Speaking very softly without vocal cords"
-},
-{
+    },
+    {
     word: "anchor",
     hint: "A heavy object to keep a ship in place"
-},
-{
+    },
+    {
     word: "portal",
     hint: "A gateway or doorway, often to another world"
-},
-{
+    },
+    {
     word: "beacon",
     hint: "A guiding or warning light, often from a tower"
-},
-{
+    },
+    {
     word: "riddle",
     hint: "A puzzling question or problem to solve"
-},
-{
+    },
+    {
     word: "glimpse",
     hint: "A brief or quick look"
-},
-{
+    },
+    {
     word: "refuge",
     hint: "A safe place or shelter"
-},
-{
+    },
+    {
     word: "ignite",
     hint: "To catch fire or trigger a reaction"
-},
-{
+    },
+    {
     word: "voyage",
     hint: "A long journey, especially by sea or space"
-},
-{
+    },
+    {
     word: "canvas",
     hint: "A surface for painting or creating art"
-},
-{
+    },
+    {
     word: "embark",
     hint: "To begin a journey or enterprise"
-},
-{
+    },
+    {
     word: "echoes",
     hint: "Repetitions of sound or past events"
-},
-{
+    },
+    {
     word: "barrier",
     hint: "An obstacle that prevents movement or progress"
-},
-{
+    },
+    {
     word: "legacy",
     hint: "Something handed down from the past"
-},
-{
+    },
+    {
     word: "orbit",
     hint: "A curved path around a planet or star"
-}
+    }
 ]
