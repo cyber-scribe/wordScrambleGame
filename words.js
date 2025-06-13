@@ -36,24 +36,24 @@ let words = [
         hint: "A pleasant feeling of relaxation"
     },
     {
-        word: "tongue",
-        hint: "The muscular organ of mouth"
+    word: "tongue",
+    hint: "The muscular organ of mouth"
     },
     {
-        word: "expansion",
-        hint: "The process of increase or grow"
+    word: "expansion",
+    hint: "The process of increase or grow"
     },
     {
-        word: "country",
-        hint: "A politically identified region"
+    word: "country",
+    hint: "A politically identified region"
     },
     {
-        word: "group",
-        hint: "A number of objects or persons"
+    word: "group",
+    hint: "A number of objects or persons"
     },
     {
-        word: "taste",
-        hint: "Ability of tongue to detect flavour"
+    word: "taste",
+    hint: "Ability of tongue to detect flavour"
     },
     {
     word: "store",
