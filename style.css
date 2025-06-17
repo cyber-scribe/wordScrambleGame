@@ -79,7 +79,6 @@ body{
     font-weight: 700;
 }
 .buttons .refresh{
-    /* background-color: rgb(23, 39, 69); */
     background-color: rgb(59, 92, 175);
     color: white;
     cursor: pointer;
@@ -87,7 +86,6 @@ body{
     
 }
 .buttons .check{
-    /* background-color:  rgb(23, 39, 69); */
     background-color: rgb(59, 92, 175);
     color: white;
     cursor: pointer;
@@ -96,13 +94,11 @@ body{
 }
 .buttons .check:hover{
     background-color: white;
-    /* color: rgb(23, 39, 69); */
     color:rgb(59, 92, 175);
     border: solid .5px rgb(59, 92, 175);
 }
 .buttons .refresh:hover{
     background-color: white;
-    /* color: rgb(23, 39, 69); */
     color:rgb(59, 92, 175);
     border:solid .5px rgb(59, 92, 175) ;
 }
