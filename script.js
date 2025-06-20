@@ -11,7 +11,6 @@ let correctWord;
 let Count=0;
 
 const initTimer = maxTime =>{
-
    timer = setInterval(()=>{
         
          if(maxTime>=0){
@@ -22,7 +21,6 @@ const initTimer = maxTime =>{
             alert("Time's up!");
         }
    },1000);
-
 }
 
 const initGame = () =>{
