@@ -1,5 +1,6 @@
 const wordText = document.querySelector(".word")
 hintText = document.querySelector(".hint span")
+//
 inputField = document.querySelector(".input")
 refreshBtn = document.querySelector(".refresh")
 checkBtn = document.querySelector(".check")
@@ -9,22 +10,33 @@ scoreField = document.querySelector(".scre");
 
 let correctWord;
 let Count=0;
+//
+let timerId      = null; 
 
-const initTimer = maxTime =>{
-   timer = setInterval(()=>{
-        
-         if(maxTime>=0){
-            timeText.innerText= maxTime;
-            maxTime--;         
-          }
-        else{
-            alert("Time's up!");
-        }
-   },1000);
-}
+const initTimer = (seconds) => {
+  if (timerId) clearInterval(timerId);   
+  let timeLeft = seconds;
+  timeText.innerText = timeLeft;
+
+  timerId = setInterval(() => {
+    timeLeft--;
+    if (timeLeft < 0) {
+      clearInterval(timerId);
+      timerId = null;
+      alert("Time’s up!");
+
+    //
+    //
+
+      initGame();              
+      return;
+    }
+    timeText.innerText = timeLeft;
+  }, 1000);
+};
 
 const initGame = () =>{
-    initTimer(60);
+    initTimer(30);
     let randomObj = words[Math.floor(Math.random()*words.length)];
     let wordArray = randomObj.word.split("");
     for(let i= wordArray.length-1;i>0;i--){
@@ -56,5 +68,8 @@ const showScore = (count) =>{
 
 
 refreshBtn.addEventListener("click",initGame);
+
 checkBtn.addEventListener("click",checkWord);
+//
+
 startBtn.addEventListener("click",initGame);
