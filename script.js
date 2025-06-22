@@ -69,7 +69,12 @@ const showScore = (count) =>{
 
 refreshBtn.addEventListener("click",initGame);
 
-checkBtn.addEventListener("click",checkWord);
-//
+// checkBtn.addEventListener("click",checkWord);
+
+inputField.addEventListener("keyup", function(event) {
+  if (event.key === "Enter") {
+    checkWord();
+  }
+});
 
 startBtn.addEventListener("click",initGame);
