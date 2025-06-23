@@ -6,11 +6,13 @@ refreshBtn = document.querySelector(".refresh")
 checkBtn = document.querySelector(".check")
 timeText = document.querySelector(".time")
 startBtn = document.querySelector(".bt")
-scoreField = document.querySelector(".scre");
+scoreField = document.querySelector(".scre")
+highScoreField = document.querySelector(".high-scre");
 
 let correctWord;
 let Count=0;
-//
+let Score =0
+let highScore = 0;
 let timerId      = null; 
 
 const initTimer = (seconds) => {
@@ -25,8 +27,9 @@ const initTimer = (seconds) => {
       timerId = null;
       alert("Time’s up!");
 
-    //
-    //
+    Score = 0;
+    showScore(score); 
+    
 
       initGame();              
       return;
@@ -63,13 +66,15 @@ const checkWord = () =>{
     
 }
 const showScore = (count) =>{
-   scoreField.innerText=count;
+  scoreField.innerText=count;
+  if (count > highScore) {
+    highScore = count;
+    highScoreField.textContent = highScore;
+  }
 }
 
 
 refreshBtn.addEventListener("click",initGame);
-
-// checkBtn.addEventListener("click",checkWord);
 
 inputField.addEventListener("keyup", function(event) {
   if (event.key === "Enter") {
