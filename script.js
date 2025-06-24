@@ -12,8 +12,12 @@ highScoreField = document.querySelector(".high-scre");
 let correctWord;
 let Count=0;
 let Score =0
-let highScore = 0;
-let timerId      = null; 
+let timerId      = null;
+
+let highScore = localStorage.getItem("highScore")
+  ? parseInt(localStorage.getItem("highScore"))
+  : 0;
+highScoreField.textContent = highScore;
 
 const initTimer = (seconds) => {
   if (timerId) clearInterval(timerId);   
@@ -70,6 +74,8 @@ const showScore = (count) =>{
   if (count > highScore) {
     highScore = count;
     highScoreField.textContent = highScore;
+
+    localStorage.setItem("highScore", highScore);
   }
 }
 
