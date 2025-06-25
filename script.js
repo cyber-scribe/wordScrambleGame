@@ -29,7 +29,7 @@ const initTimer = (seconds) => {
     if (timeLeft < 0) {
       clearInterval(timerId);
       timerId = null;
-      alert("Time’s up!");
+      showNotification("Time’s up!");
 
     Score = 0;
     showScore(score); 
@@ -59,10 +59,10 @@ initGame();
 
 const checkWord = () =>{
     let userWord = inputField.value.toLowerCase();
-    if(!userWord)return alert("Please enter a word!");
-    if(userWord!==correctWord)return alert("Not correct!");
+    if(!userWord)return showNotification("Please enter a word!");
+    if(userWord!==correctWord)return showNotification("Not correct!");
     else{
-        alert('Yes! You got that right!');
+        showNotification('Yes! You got that right!');
         Count++;
         showScore(Count);
     }
@@ -78,6 +78,17 @@ const showScore = (count) =>{
     localStorage.setItem("highScore", highScore);
   }
 }
+
+
+const showNotification = (message, duration = 2000) => {
+  const note = document.getElementById("notification");
+  note.textContent = message;
+  note.classList.add("show");
+
+  setTimeout(() => {
+    note.classList.remove("show");
+  }, duration);
+};
 
 
 refreshBtn.addEventListener("click",initGame);
