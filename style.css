@@ -127,8 +127,8 @@ body{
 }
 .notification {
   position: fixed;
-  top: 75px;
-  background-color: #333;
+  top: 70px;
+  background-color:  rgba(0, 0, 0, 0.798);
   color: #fff;
   padding: 14px 24px;
   border-radius: 12px;
