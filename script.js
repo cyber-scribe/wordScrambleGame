@@ -1,6 +1,5 @@
 const wordText = document.querySelector(".word")
 hintText = document.querySelector(".hint span")
-//
 inputField = document.querySelector(".input")
 refreshBtn = document.querySelector(".refresh")
 checkBtn = document.querySelector(".check")
@@ -79,7 +78,6 @@ const showScore = (count) =>{
   }
 }
 
-
 const showNotification = (message, duration = 2000) => {
   const note = document.getElementById("notification");
   note.textContent = message;
@@ -89,7 +87,6 @@ const showNotification = (message, duration = 2000) => {
     note.classList.remove("show");
   }, duration);
 };
-
 
 refreshBtn.addEventListener("click",initGame);
 
