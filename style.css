@@ -127,7 +127,7 @@ body{
 }
 .notification {
   position: fixed;
-  top: 70px;
+  top:calc(100%/2);
   background-color:  rgba(0, 0, 0, 0.798);
   color: #fff;
   padding: 14px 24px;
@@ -139,7 +139,6 @@ body{
   transition: opacity 0.4s ease;
   z-index: 9999;
 }
-
 .notification.show {
   opacity: 1;
   pointer-events: auto;
