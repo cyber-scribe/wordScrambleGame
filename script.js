@@ -11,7 +11,7 @@ highScoreField = document.querySelector(".high-scre");
 let correctWord;
 let Count=0;
 let Score =0
-let timerId      = null;
+let timerId  = null;
 
 let highScore = localStorage.getItem("highScore")
   ? parseInt(localStorage.getItem("highScore"))
