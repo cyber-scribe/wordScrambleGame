@@ -4,7 +4,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Nunito',sans-serif;
-
 }
 body{
     display: flex;
@@ -21,7 +20,6 @@ body{
     border-radius: 7px;
     padding: 15px;
     box-shadow: 3px 3px rgb(35, 43, 78);
-
 }
 .container h1{
     font-size: 36px;
