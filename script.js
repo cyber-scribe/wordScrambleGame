@@ -12,10 +12,10 @@ let correctWord;
 let Count=0;
 let Score =0
 let timerId  = null;
-
 let highScore = localStorage.getItem("highScore")
   ? parseInt(localStorage.getItem("highScore"))
   : 0;
+
 highScoreField.textContent = highScore;
 
 const initTimer = (seconds) => {
