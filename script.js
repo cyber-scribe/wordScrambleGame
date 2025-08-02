@@ -88,6 +88,7 @@ const showNotification = (message, duration = 2000) => {
   }, duration);
 };
 
+
 refreshBtn.addEventListener("click",initGame);
 
 inputField.addEventListener("keyup", function(event) {
