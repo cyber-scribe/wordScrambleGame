@@ -134,6 +134,7 @@ body{
   box-shadow: 0 6px 15px rgba(0,0,0,0.2);
   transition: opacity 0.4s ease;
   z-index: 9999;
+  opacity: 0;
 }
 .notification.show {
   opacity: 1;
